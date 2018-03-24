@@ -1,0 +1,30 @@
+class Subject:
+    
+    def __init__(self,tamil,english,maths,science,social):
+        self.tamil=tamil
+        self.english=english
+        self.maths=maths
+        self.science=science
+        self.social=social
+        
+        
+    def display(self):
+       
+         print("Student mark in tamil:",self.tamil)
+         print("Student mark in english:",self.english)
+         print("Student mark in maths:",self.maths)
+         print("Student mark in science:",self.science)
+         print("Student mark in social:",self.social)
+        
+
+stu1=Subject(99,98,97,96,95)
+stu2=Subject(97,92,94,95,93)
+stu3=Subject(98,96,100,96,95)
+stu4=Subject(99,94,97,100,95)
+
+stu1.display()
+stu2.display()
+stu3.display()
+stu4.display()
+
+       
