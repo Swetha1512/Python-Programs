@@ -1,0 +1,4 @@
+fs1={"apple","banana","cherry"}
+fs2={"blackberry","strawberry","durian"}
+fruit_union=fs1.union(fs2)
+print(fruit_union)
