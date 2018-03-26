@@ -1,0 +1,4 @@
+fs1={"apple","banana","cherry"}
+fs2={"banana","apple","durian"}
+fruit_intersection=fs1&fs2
+print(fruit_intersection)
