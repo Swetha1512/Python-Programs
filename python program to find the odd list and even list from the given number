@@ -1,0 +1,24 @@
+a = []
+n = int(input("enter the intervel : "))
+
+for i in range(1, n+1):
+    b = int(input("Enter Element: "))
+    a.append(b)
+    print(a)
+
+odd = []
+even = []
+
+
+for j in a :
+    if j%2 == 0:
+        even.append(j)
+
+    else:
+        odd.append(j)
+
+
+print("Even list is : " , even)
+
+
+print("Odd list is : " , odd)
