@@ -1,0 +1,12 @@
+import cmath
+
+a=float(input("Enter the 1st number:"))
+b=float(input("Enter the 2nd number:"))
+c=float(input("Enter the 3rd number:"))
+d=(b*b)-(4*a*c)
+d=cmath.sqrt(d)
+e=2*a
+sol1=((-(b)+(d))/e)
+sol2=((-(b)-(d))/e)
+print(sol1)
+print(sol2)
