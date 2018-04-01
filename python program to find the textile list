@@ -1,0 +1,28 @@
+textile=[]
+def print_help():
+    print("what do you want to add today?")
+    print("Type 'DONE' to quit")
+    print("Type 'HELP' to see help")
+    print("Type 'SHOW' to see current textile")
+
+def print_item():
+    print("you have got in your textiles:")
+    for item in textile:
+        print(item)
+    
+def add_item(new_things):
+    textile.append(new_things)
+    print("Added {},you got {} things in your list". format(new_things,len(textile)))
+
+print_help()
+while True:
+    new_things=input(">")
+    
+    if new_things.upper() =="DONE":
+        break
+    elif new_things.upper() =="HELP":    
+        continue
+    elif new_things.upper() =="SHOW":    
+        continue
+    add_item(new_things)
+print_item()    
