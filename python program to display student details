@@ -1,0 +1,16 @@
+class Student:
+    company="Jerusalem college of engineering"
+def __init__(self,name,rollno,regno):
+    self.name=name
+    self.rollno=rollno
+    self.regno=regno
+def display(self):
+    print("Student name is:",self.name)
+    print("Student rollno is:",self.rollno)
+    print("Student regno is:",self.regno)
+stu1=("Swetha",15293,310915205075)
+stu2=("Abirami",15294,310915205003)
+stu3=("Shruthi",15309,10915205067)
+stu1.display()
+stu2.display()
+stu3.display()    
